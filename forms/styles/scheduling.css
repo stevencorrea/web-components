@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+input, select, label, textarea {
+    display: block;
+    position: relative;
+    margin: .5rem;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+label {
+    font-size: .8rem;
+}
+
+button {
+    display: block;
+    margin: .5rem;
+}

@@ -1,0 +1,39 @@
+div.tabComponent {
+    border: 2px solid lightblue;
+    border-radius:  8px;
+    size: 2rem;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+ul { 
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    display: none;
+}
+
+div.tabComponent input {
+    visibility: hidden;
+    
+}
+
+div.tabComponent input:checked + label {
+    background-color: lightblue;
+    color: black;
+}
+
+div.tabComponent input:checked + label + p{
+    position: fixed;
+    visibility: visible;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration-color: lightblue;
+    text-decoration-style: dashed;
+    text-decoration: underline;
+}
