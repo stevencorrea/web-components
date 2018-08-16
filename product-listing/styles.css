@@ -1,0 +1,68 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+h2 {
+    padding-left: 1rem;
+}
+
+ul.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    text-align: left;
+}
+
+ul.products li {
+    margin: auto;
+    max-width: 300px;
+}
+
+li button {
+    float: right;
+}
+
+ul.products-in-cart {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+}
+
+ul.products-in-cart li {
+    margin: 1rem 1rem;
+    border-bottom: 1px solid black;
+}
+
+ul.products-in-cart p {
+    float: both;
+}
+
+ul.products-in-cart img {
+    max-width: 4rem;
+    max-height: 5rem;
+}
+
+label, button, div#cart p {
+    padding-left: .5rem;
+    margin-left: 1rem;
+}
+
+input {
+    padding-left: .3rem;
+}
+
+p.total-price {
+    font-size: 1.25rem;
+}
+
+div#checkout {
+    padding: 1rem;
+    margin-left: 1rem;
+    display: block;
+}
+
+
+

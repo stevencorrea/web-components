@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/style" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Produt Listing and Cart</title>
+</head>
+<body>
+    <h2>Shop our best selling magazines</h2>
+    <ul class="products">
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/511tXHY-ufL._AC_SY400_.jpg" alt="Wired">
+            <p>Wired — General science and technology-centric takes on pop culture</p>
+            <p>$14.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51R6TiLMbRL._AC_SY400_.jpg" alt="The Family Handyman">
+            <p>The Family Handyman — 101 and more for home improvment and DIY folks</p>
+            <p>$9.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41gHTefFBJL._AC_SY400_.jpg" alt="MIT Tech Review">
+            <p>MIT Technology Review — The latest tech news and stories from America's top tech college</p>
+            <p>$19.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/510hJoTHnjL._AC_SY400_.jpg" alt="Maximum PC">
+            <p>Maximum PC — PC news, tips and tricks for the PC enthusiast</p>
+            <p>$6.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/512lvwwWTbL._AC_SY400_.jpg" alt="Popular Science">
+            <p>Popular Science — America's favorite science magazine</p>
+            <p>$9.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51o8-lL2UuL._AC_SY400_.jpg" alt="Bon Appetit">
+            <p>Bon Appetit — Creative cooking publication for the culinarily mindeded</p>
+            <p>$17.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51EHnb0vlPL._AC_SY400_.jpg" alt="GQ">
+            <p>GQ — The magazine for men and things related to men's culture</p>
+            <p>$4.99/yr <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/615LqfdN8iL._AC_SY400_.jpg" alt="Popular Mechanics">
+            <p>Popular Mechanics — More science and tech based reporting</p>
+            <p>$9.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51ATlYo5CGL._AC_SY400_.jpg" alt="Reader's Digest">
+            <p>Reader's Digest — Anything goes with this variety driven publication</p>
+            <p>$4.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+        <li>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61BxaRX-RFL._AC_SY400_.jpg" alt="Harvard Business Review">
+            <p>Harvard Business Review — Harvard's take on the month's news in business</p>
+            <p>$14.99/mo <button type="button">Add To Cart</button></p>
+        </li>
+    </ul>
+    <br />
+    <hr />
+    <br />
+
+    <div id="cart">
+        <h2 class="cart">Items in your cart</h2>
+        <ul class="products-in-cart">
+            <li>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61BxaRX-RFL._AC_SY400_.jpg" alt="Harvard Business Review">
+                <p>Harvard Business Review — Harvard's take on the month's news in business</p>
+                <p>$14.99/mo <label for="qty">qty</label> <input type="number" id="qty" value="1" max="10" min="1"> <button type="button">Remove from Cart</button></p>
+            </li>
+            <li>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41gHTefFBJL._AC_SY400_.jpg" alt="MIT Tech Review">
+                <p>MIT Technology Review — The latest tech news and stories from America's top tech college</p>
+                <p>$19.99/mo <label for="qty">qty</label> <input type="number" id="qty" value="1" max="10" min="1"> <button type="button">Remove from Cart</button></p>
+            </li>
+            <li>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/511tXHY-ufL._AC_SY400_.jpg" alt="Wired">
+                <p>Wired — General science and technology-centric takes on pop culture</p>
+                <p>$14.99/mo <label for="qty">qty</label> <input type="number" id="qty" value="1" max="10" min="1"> <button type="button">Remove from Cart</button></p>
+            </li>
+        </ul>
+        <div id="checkout">
+                <label for="promo">Promo Code</label> <input type="text" id="promo" maxlength="10" />
+                <button type="button">Apply</button>
+                <p class="total-price"><strong>Total Price   $49.97</strong></p>
+                <button type="button">Keep Shopping</button>
+                <button type="button">Checkout</button>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
